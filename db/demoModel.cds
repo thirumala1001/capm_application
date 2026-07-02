@@ -43,3 +43,12 @@ entity EmployeeAddress {
     empzipcode : String(6);
     empcom : Association to employeeData;
 }
+
+entity empService {
+    key empServiceId : UUID;
+    empId : Integer;
+    serviceType : String(25);
+    serviceStartDate : Date;
+    serviceEndDate : Date;
+    serviceDescription : String(100);
+}

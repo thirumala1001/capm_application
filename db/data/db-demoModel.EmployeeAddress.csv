@@ -1,0 +1,11 @@
+empAdressId,addressType,empHouseNo,empStreet,empcity,empstate,empCountry,empzipcode,empcom_referenceid,empcom_employeeId
+cec36cfb-bb89-4d6f-b20f-d67289d0beb1,Permanent,12A,MG Road,Hyderabad,Telangana,India,500001,ed428fb3-af49-46a2-a999-262581a118ef,1001
+3034e210-8f0b-4da3-b905-7dc32a174d73,Current,45B,Brigade Road,Bengaluru,Karnataka,India,560001,8f1a4f7a-ff91-4634-aad0-ec0d291715dd,1002
+33333333-3333-3333-3333-333333333333,Permanent,78,Anna Salai,Chennai,Tamil Nadu,India,600002,801a1009-b5f8-4419-903d-d9f1e295bcd0,1003
+44444444-4444-4444-4444-444444444444,Current,10,Park Street,Kolkata,West Bengal,India,700016,aaf7a895-9afc-480c-afa2-8b77ca29fd2b,1004
+55555555-5555-5555-5555-555555555555,Permanent,90,Marine Drive,Mumbai,Maharashtra,India,400020,fec92e70-aa43-4387-8162-82568966abe4,1005
+66666666-6666-6666-6666-666666666666,Current,21C,Ashok Nagar,Vijayawada,Andhra Pradesh,India,520010,9b6782c1-f564-47c7-ac21-7d957fd365c8,1006
+529bf420-1694-4be7-a2b9-85db44b7c6f4,Permanent,33,Beach Road,Visakhapatnam,Andhra Pradesh,India,530001,f91eb085-509c-4a84-b87c-31b98dcb51e1,1007
+88888888-8888-8888-8888-888888888888,Current,17A,Civil Lines,Nagpur,Maharashtra,India,440001,70ad4faa-4b02-4f19-a713-2b1d0e9de1db,1008
+99999999-9999-9999-9999-999999999999,Permanent,61,Station Road,Pune,Maharashtra,India,411001,8afa4a9e-355b-4439-889b-49a038bca516,1009
+aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa,Current,5D,Ring Road,Ahmedabad,Gujarat,India,380015,00e5dca5-254d-44d1-bfbf-bef12c481604,1010

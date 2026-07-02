@@ -1,0 +1,53 @@
+###checking the service
+GET http://localhost:4004/odata/v4/employeesrv/
+
+###checking the entity set
+# GET http://localhost:4004/odata/v4/employeesrv/empbioSet?$filter=employeeId eq '1004'
+
+####checking the entity set with expand
+GET http://localhost:4004/odata/v4/employeesrv/empbioSet
+
+###
+POST http://localhost:4004/odata/v4/employeesrv/empbioSet
+Content-Type: application/json
+
+{
+    "employeeId": 101,
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@example.com"
+}
+
+###
+GET http://localhost:4004/odata/v4/employeesrv/empbioSet?$filter=employeeId eq '1003'
+
+###checking the entity set with expand
+GET http://localhost:4004/odata/v4/employeesrv/empbioSet?$filter=employeeId eq '1002'&$expand=familyMember_details
+
+###checking the entity set with expand with composiation
+GET http://localhost:4004/odata/v4/employeesrv/empbioSet?$filter=employeeId eq '1010'&$expand=employee_address
+
+###checking the training entityset
+GET http://localhost:4004/odata/v4/trainingsrv/
+
+###checking the training entityset data
+GET http://localhost:4004/odata/v4/trainingsrv/empTrainingSet 
+###?$filter=employeeId_referenceid eq 801a1009-b5f8-4419-903d-d9f1e295bcd0&$expand=employeeId
+
+###
+###GET http://localhost:4004/odata/v4/trainingsrv/empTrainingSet?$expand=employee
+
+###
+GET http://localhost:4004/odata/v4/employeesrv/empbioSet?$filter=employeeId eq '1008'&$expand=training_details
+
+####checking the payroll entityset
+GET http://localhost:4004/odata/v4/payrollsrv/empSalSet
+
+###
+GET http://localhost:4004/odata/v4/employeesrv/empbioSet?$filter=employeeId eq '1003'&$expand=payroll_details
+
+####checking the payroll entityset data
+GET http://localhost:4004/odata/v4/payrollsrv/empPayslipSet
+
+###
+GET http://localhost:4004/odata/v4/employeesrv/empbioSet?$filter=employeeId eq '1003'&$expand=payslip_details 

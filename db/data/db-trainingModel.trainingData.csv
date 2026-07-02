@@ -1,0 +1,16 @@
+trainingId,employee_referenceid,employee_employeeId,trainingName,trainingProvider,trainingStartDate,trainingEndDate,trainingStatus
+11111111-1111-1111-1111-111111111111,ed428fb3-af49-46a2-a999-262581a118ef,1001,SAP CAPM,SAP Learning Hub,2026-01-10,2026-01-15,Completed
+22222222-2222-2222-2222-222222222222,ed428fb3-af49-46a2-a999-262581a118ef,1001,SAP Fiori,OpenSAP,2026-03-05,2026-03-10,Completed
+33333333-3333-3333-3333-333333333333,ed428fb3-af49-46a2-a999-262581a118ef,1001,SAP BTP,SAP Learning,2026-06-01,2026-06-05,In Progress
+44444444-4444-4444-4444-444444444444,8f1a4f7a-ff91-4634-aad0-ec0d291715dd,1002,ABAP RAP,SAP Learning Hub,2026-02-15,2026-02-20,Completed
+55555555-5555-5555-5555-555555555555,8f1a4f7a-ff91-4634-aad0-ec0d291715dd,1002,CDS Views,OpenSAP,2026-05-01,2026-05-06,Completed
+66666666-6666-6666-6666-666666666666,801a1009-b5f8-4419-903d-d9f1e295bcd0,1003,OData V4,SAP Learning,2026-04-01,2026-04-05,Completed
+77777777-7777-7777-7777-777777777777,801a1009-b5f8-4419-903d-d9f1e295bcd0,1003,SAP HANA,SAP Learning Hub,2026-07-10,2026-07-15,Completed
+88888888-8888-8888-8888-888888888888,801a1009-b5f8-4419-903d-d9f1e295bcd0,1003,SAP Build Apps,Coursera,2026-09-01,2026-09-08,Planned
+99999999-9999-9999-9999-999999999999,aaf7a895-9afc-480c-afa2-8b77ca29fd2b,1004,Integration Suite,OpenSAP,2026-08-15,2026-08-20,Completed
+aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa,fec92e70-aa43-4387-8162-82568966abe4,1005,Git & DevOps,Udemy,2026-10-05,2026-10-10,Planned
+bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb,9b6782c1-f564-47c7-ac21-7d957fd365c8,1006,Docker Basics,Coursera,2026-11-01,2026-11-05,Completed
+cccccccc-cccc-cccc-cccc-cccccccccccc,f91eb085-509c-4a84-b87c-31b98dcb51e1,1007,Kubernetes,SAP Learning Hub,2026-11-15,2026-11-20,In Progress
+dddddddd-dddd-dddd-dddd-dddddddddddd,70ad4faa-4b02-4f19-a713-2b1d0e9de1db,1008,Node.js,Udemy,2026-12-01,2026-12-05,Completed
+eeeeeeee-eeee-eeee-eeee-eeeeeeeeeeee,8afa4a9e-355b-4439-889b-49a038bca516,1009,JavaScript ES6,Coursera,2026-12-10,2026-12-15,Completed
+ffffffff-ffff-ffff-ffff-ffffffffffff,00e5dca5-254d-44d1-bfbf-bef12c481604,1010,Cloud Foundry,SAP Learning Hub,2027-01-05,2027-01-10,Planned

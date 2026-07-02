@@ -1,0 +1,21 @@
+{
+  "name": "demo_capm",
+  "version": "1.0.0",
+  "dependencies": {
+    "@sap/cds": "^9",
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^2.4"
+  },
+  "scripts": {
+    "start": "cds-serve"
+  },
+  "private": true,
+  "description": "Welcome to your new CAP project.",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

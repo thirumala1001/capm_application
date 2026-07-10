@@ -1,8 +1,11 @@
 using {db.demoModel as myModel} from '../db/demoModel';
 
-service employeesrv {
+service employeesrv @(requires: 'authenticated-user'){
 
-    entity empbioSet         as projection on myModel.employeeData;
+    entity empbioSet @(restirct :[
+        {grant : ['READ', 'WRITE'], to : 'inService'},
+        {grant :['READ'], to: 'retired', where: 'serviceStatus = $user.serviceStatus'}
+    ]) as projection on myModel.employeeData;
     entity FamilyMembersSet  as projection on myModel.FamilyMembers;
     entity EmployeeAdressSet as projection on myModel.EmployeeAddress;
 }

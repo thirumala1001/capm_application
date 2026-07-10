@@ -1,0 +1,137 @@
+_schema-version: 3.3.0
+ID: demo_capm
+description: Welcome to your new CAP project.
+version: 1.0.0
+modules:
+  - name: demo_capm-srv
+    type: nodejs
+    path: gen/srv
+    requires:
+      - name: demo_capm-db
+      - name: uaa_demo_capm
+    provides:
+      - name: srv-api
+        properties:
+          srv-url: ${default-url}
+    parameters:
+      buildpack: nodejs_buildpack
+      instances: 1
+    build-parameters:
+      builder: npm-ci
+  - name: demo_capm-db-deployer
+    type: hdb
+    path: gen/db
+    requires:
+      - name: demo_capm-db
+    parameters:
+      buildpack: nodejs_buildpack
+  - name: demo_capm-destination-content
+    type: com.sap.application.content
+    requires:
+      - name: demo_capm-destination-service
+        parameters:
+          content-target: true
+      - name: demo_capm_html_repo_host
+        parameters:
+          service-key:
+            name: demo_capm_html_repo_host-key
+      - name: uaa_demo_capm
+        parameters:
+          service-key:
+            name: uaa_demo_capm-key
+    parameters:
+      content:
+        instance:
+          destinations:
+            - Name: demo_empcapm_demo_capm_html_repo_host
+              ServiceInstanceName: demo_capm-html5-app-host-service
+              ServiceKeyName: demo_capm_html_repo_host-key
+              sap.cloud.service: demo_empcapm
+            - Authentication: OAuth2UserTokenExchange
+              Name: demo_empcapm_uaa_demo_capm
+              ServiceInstanceName: demo_capm-xsuaa-service
+              ServiceKeyName: uaa_demo_capm-key
+              sap.cloud.service: demo_empcapm
+          existing_destinations_policy: ignore
+    build-parameters:
+      no-source: true
+  - name: demo_capm-app-content
+    type: com.sap.application.content
+    path: .
+    requires:
+      - name: demo_capm_html_repo_host
+        parameters:
+          content-target: true
+    build-parameters:
+      build-result: resources
+      requires:
+        - artifacts:
+            - employeeinformationemployeedatamodule.zip
+          name: employeeinformationemployeedatamodule
+          target-path: resources/
+  - name: employeeinformationemployeedatamodule
+    type: html5
+    path: app/employeedata_module
+    build-parameters:
+      build-result: dist
+      builder: custom
+      commands:
+        - npm install
+        - npm run build:cf
+      supported-platforms:
+        []
+resources:
+  - name: demo_capm-db
+    type: com.sap.xs.hdi-container
+    parameters:
+      service: hana
+      service-plan: hdi-shared
+  - name: demo_capm-destination-service
+    type: org.cloudfoundry.managed-service
+    parameters:
+      config:
+        HTML5Runtime_enabled: true
+        init_data:
+          instance:
+            destinations:
+              - Authentication: NoAuthentication
+                Name: ui5
+                ProxyType: Internet
+                Type: HTTP
+                URL: https://ui5.sap.com
+              - Authentication: NoAuthentication
+                HTML5.DynamicDestination: true
+                HTML5.ForwardAuthToken: true
+                Name: srv-api
+                ProxyType: Internet
+                Type: HTTP
+                URL: ~{srv-api/srv-url}
+            existing_destinations_policy: update
+        version: 1.0.0
+      service: destination
+      service-name: demo_capm-destination-service
+      service-plan: lite
+    requires:
+      - name: srv-api
+  - name: demo_capm_html_repo_host
+    type: org.cloudfoundry.managed-service
+    parameters:
+      service: html5-apps-repo
+      service-name: demo_capm-html5-app-host-service
+      service-plan: app-host
+  - name: uaa_demo_capm
+    type: org.cloudfoundry.managed-service
+    parameters:
+      path: ./xs-security.json
+      service: xsuaa
+      service-name: demo_capm-xsuaa-service
+      service-plan: application
+parameters:
+  deploy_mode: html5-repo
+  enable-parallel-deployments: true
+build-parameters:
+  before-all:
+    - builder: custom
+      commands:
+        - npm ci
+        - npx cds build --production

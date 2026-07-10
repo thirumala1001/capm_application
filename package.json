@@ -2,20 +2,68 @@
   "name": "demo_capm",
   "version": "1.0.0",
   "dependencies": {
+    "@cap-js/hana": "^2",
     "@sap/cds": "^9",
+    "@sap/xssec": "^4.13.1",
     "cors": "^2.8.6",
     "express": "^5.2.1"
   },
   "devDependencies": {
-    "@cap-js/sqlite": "^2.4"
+    "@cap-js/sqlite": "^2.4",
+    "@sap/cds-dk": "^9",
+    "cds-plugin-ui5": "^0.17.0",
+    "mbt": "^1.2.49",
+    "rimraf": "^5.0.5"
   },
   "scripts": {
-    "start": "cds-serve"
+    "start": "cds-serve",
+    "watch-employeedata_module": "cds watch --open employeeinformation.employeedatamodule/index.html?sap-ui-xx-viewCache=false --livereload false",
+    "undeploy": "cf undeploy demo_capm --delete-services --delete-service-keys --delete-service-brokers",
+    "build": "rimraf resources mta_archives && mbt build --mtar archive",
+    "deploy": "cf deploy mta_archives/archive.mtar --retries 1"
   },
   "private": true,
-  "description": "Welcome to your new CAP project.",
-  "main": "index.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "cds": {
+    "sql": {
+      "native_hana_associations": false
+    },
+    "requires": {
+      "auth": {
+        "[production]": {
+          "strategy": "JWT"
+        },
+        "[development]": {
+          "strategy": "mocked",
+          "users": {
+            "tirumala": {
+              "password": "Welcome@CBT",
+              "roles": [
+                "inService"
+              ]
+            },
+            "ramya": {
+              "password": "welcome@1234",
+              "roles": [
+                "retired"
+              ],
+              "userAttributes": {
+                "serviceStatus": [
+                  "RETIRED"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "[production]": {
+        "db": "hana"
+      }
+    }
+  },
+  "workspaces": [
+    "app/*"
+  ],
+  "sapux": [
+    "app/employeedata_module"
+  ]
 }

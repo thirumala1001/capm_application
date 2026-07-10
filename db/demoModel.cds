@@ -2,6 +2,11 @@ using {db.trainingModel.trainingData} from './trainingModel';
 using {db.payrollModel.payrollData, db.payrollModel.payslipData} from './payrollModel';
 namespace db.demoModel;
 
+type empinServiceType : String enum{
+    inService = 'SERVICING';
+    retired = 'RETIRED';
+}
+
 entity employeeData {
     key referenceid : UUID;
     key employeeId: Integer; //UUID
@@ -14,8 +19,9 @@ entity employeeData {
     salary: Decimal(10, 2);
     // commissionPct: Decimal(5, 2);
     managerId: Integer;
-    departmentId: Integer;
+    departmentId: Integer; 
     maritalStatus : Boolean;
+    serviceStatus : empinServiceType;
     familyMember_details : Association to many FamilyMembers on familyMember_details.ItemempId = $self.employeeId;
     employee_address : Composition of many EmployeeAddress on employee_address.empcom = $self;
     training_details : Composition of many trainingData on training_details.employee = $self;

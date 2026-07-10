@@ -1,0 +1,219 @@
+<edmx:Edmx xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Version="4.0">
+<edmx:Reference Uri="https://sap.github.io/odata-vocabularies/vocabularies/Common.xml">
+<edmx:Include Alias="Common" Namespace="com.sap.vocabularies.Common.v1"/>
+</edmx:Reference>
+<edmx:Reference Uri="https://oasis-tcs.github.io/odata-vocabularies/vocabularies/Org.OData.Core.V1.xml">
+<edmx:Include Alias="Core" Namespace="Org.OData.Core.V1"/>
+</edmx:Reference>
+<edmx:Reference Uri="https://sap.github.io/odata-vocabularies/vocabularies/UI.xml">
+<edmx:Include Alias="UI" Namespace="com.sap.vocabularies.UI.v1"/>
+</edmx:Reference>
+<edmx:DataServices>
+<Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="employeesrv">
+<Annotation Term="Core.Links">
+<Collection>
+<Record>
+<PropertyValue Property="rel" String="author"/>
+<PropertyValue Property="href" String="https://cap.cloud.sap"/>
+</Record>
+</Collection>
+</Annotation>
+<EntityContainer Name="EntityContainer">
+<EntitySet Name="empbioSet" EntityType="employeesrv.empbioSet">
+<NavigationPropertyBinding Path="familyMember_details" Target="FamilyMembersSet"/>
+<NavigationPropertyBinding Path="employee_address" Target="EmployeeAdressSet"/>
+<NavigationPropertyBinding Path="training_details" Target="trainingData"/>
+<NavigationPropertyBinding Path="payroll_details" Target="payrollData"/>
+<NavigationPropertyBinding Path="payslip_details" Target="payslipData"/>
+</EntitySet>
+<EntitySet Name="FamilyMembersSet" EntityType="employeesrv.FamilyMembersSet"/>
+<EntitySet Name="EmployeeAdressSet" EntityType="employeesrv.EmployeeAdressSet">
+<NavigationPropertyBinding Path="empcom" Target="empbioSet"/>
+</EntitySet>
+<EntitySet Name="trainingData" EntityType="employeesrv.trainingData">
+<NavigationPropertyBinding Path="employee" Target="empbioSet"/>
+</EntitySet>
+<EntitySet Name="payrollData" EntityType="employeesrv.payrollData">
+<NavigationPropertyBinding Path="employeeId" Target="empbioSet"/>
+</EntitySet>
+<EntitySet Name="payslipData" EntityType="employeesrv.payslipData">
+<NavigationPropertyBinding Path="empId" Target="empbioSet"/>
+</EntitySet>
+</EntityContainer>
+<EntityType Name="empbioSet">
+<Key>
+<PropertyRef Name="referenceid"/>
+<PropertyRef Name="employeeId"/>
+</Key>
+<Property Name="referenceid" Type="Edm.Guid" Nullable="false"/>
+<Property Name="employeeId" Type="Edm.Int32" Nullable="false"/>
+<Property Name="firstName" Type="Edm.String" MaxLength="100"/>
+<Property Name="lastName" Type="Edm.String" MaxLength="100"/>
+<Property Name="email" Type="Edm.String" MaxLength="100"/>
+<Property Name="phoneNumber" Type="Edm.String" MaxLength="20"/>
+<Property Name="joinDate" Type="Edm.Date"/>
+<Property Name="jobId" Type="Edm.String" MaxLength="10"/>
+<Property Name="salary" Type="Edm.Decimal" Precision="10" Scale="2"/>
+<Property Name="managerId" Type="Edm.Int32"/>
+<Property Name="departmentId" Type="Edm.Int32"/>
+<Property Name="maritalStatus" Type="Edm.Boolean"/>
+<NavigationProperty Name="familyMember_details" Type="Collection(employeesrv.FamilyMembersSet)"/>
+<NavigationProperty Name="employee_address" Type="Collection(employeesrv.EmployeeAdressSet)" Partner="empcom">
+<OnDelete Action="Cascade"/>
+</NavigationProperty>
+<NavigationProperty Name="training_details" Type="Collection(employeesrv.trainingData)" Partner="employee">
+<OnDelete Action="Cascade"/>
+</NavigationProperty>
+<NavigationProperty Name="payroll_details" Type="Collection(employeesrv.payrollData)" Partner="employeeId">
+<OnDelete Action="Cascade"/>
+</NavigationProperty>
+<NavigationProperty Name="payslip_details" Type="Collection(employeesrv.payslipData)" Partner="empId">
+<OnDelete Action="Cascade"/>
+</NavigationProperty>
+</EntityType>
+<EntityType Name="FamilyMembersSet">
+<Key>
+<PropertyRef Name="refid"/>
+</Key>
+<Property Name="refid" Type="Edm.Guid" Nullable="false"/>
+<Property Name="ItemempId" Type="Edm.Int32"/>
+<Property Name="familyMemberName" Type="Edm.String" MaxLength="100"/>
+<Property Name="familyMemberRelation" Type="Edm.String" MaxLength="50"/>
+<Property Name="familyMemberAge" Type="Edm.Int32"/>
+</EntityType>
+<EntityType Name="EmployeeAdressSet">
+<Key>
+<PropertyRef Name="empAdressId"/>
+</Key>
+<Property Name="empAdressId" Type="Edm.Guid" Nullable="false"/>
+<Property Name="addressType" Type="Edm.String" MaxLength="25"/>
+<Property Name="empHouseNo" Type="Edm.String" MaxLength="10"/>
+<Property Name="empStreet" Type="Edm.String" MaxLength="100"/>
+<Property Name="empcity" Type="Edm.String" MaxLength="25"/>
+<Property Name="empstate" Type="Edm.String" MaxLength="25"/>
+<Property Name="empCountry" Type="Edm.String" MaxLength="25"/>
+<Property Name="empzipcode" Type="Edm.String" MaxLength="6"/>
+<NavigationProperty Name="empcom" Type="employeesrv.empbioSet" Partner="employee_address">
+<ReferentialConstraint Property="empcom_referenceid" ReferencedProperty="referenceid"/>
+<ReferentialConstraint Property="empcom_employeeId" ReferencedProperty="employeeId"/>
+</NavigationProperty>
+<Property Name="empcom_referenceid" Type="Edm.Guid"/>
+<Property Name="empcom_employeeId" Type="Edm.Int32"/>
+</EntityType>
+<EntityType Name="trainingData">
+<Key>
+<PropertyRef Name="trainingId"/>
+</Key>
+<Property Name="trainingId" Type="Edm.Guid" Nullable="false"/>
+<NavigationProperty Name="employee" Type="employeesrv.empbioSet" Partner="training_details">
+<ReferentialConstraint Property="employee_referenceid" ReferencedProperty="referenceid"/>
+<ReferentialConstraint Property="employee_employeeId" ReferencedProperty="employeeId"/>
+</NavigationProperty>
+<Property Name="employee_referenceid" Type="Edm.Guid"/>
+<Property Name="employee_employeeId" Type="Edm.Int32"/>
+<Property Name="trainingName" Type="Edm.String" MaxLength="100"/>
+<Property Name="trainingProvider" Type="Edm.String" MaxLength="100"/>
+<Property Name="trainingStartDate" Type="Edm.Date"/>
+<Property Name="trainingEndDate" Type="Edm.Date"/>
+<Property Name="trainingStatus" Type="Edm.String" MaxLength="20"/>
+</EntityType>
+<EntityType Name="payrollData">
+<Key>
+<PropertyRef Name="salaryId"/>
+</Key>
+<Property Name="salaryId" Type="Edm.Guid" Nullable="false"/>
+<NavigationProperty Name="employeeId" Type="employeesrv.empbioSet" Partner="payroll_details">
+<ReferentialConstraint Property="employeeId_referenceid" ReferencedProperty="referenceid"/>
+<ReferentialConstraint Property="employeeId_employeeId" ReferencedProperty="employeeId"/>
+</NavigationProperty>
+<Property Name="employeeId_referenceid" Type="Edm.Guid"/>
+<Property Name="employeeId_employeeId" Type="Edm.Int32"/>
+<Property Name="basicSalary" Type="Edm.Decimal" Precision="10" Scale="2"/>
+<Property Name="hra" Type="Edm.Decimal" Precision="10" Scale="2"/>
+<Property Name="allowance" Type="Edm.Decimal" Precision="10" Scale="2"/>
+<Property Name="deductions" Type="Edm.Decimal" Precision="10" Scale="2"/>
+<Property Name="netSalary" Type="Edm.Decimal" Precision="10" Scale="2"/>
+</EntityType>
+<EntityType Name="payslipData">
+<Key>
+<PropertyRef Name="payslipId"/>
+</Key>
+<Property Name="payslipId" Type="Edm.Guid" Nullable="false"/>
+<NavigationProperty Name="empId" Type="employeesrv.empbioSet" Partner="payslip_details">
+<ReferentialConstraint Property="empId_referenceid" ReferencedProperty="referenceid"/>
+<ReferentialConstraint Property="empId_employeeId" ReferencedProperty="employeeId"/>
+</NavigationProperty>
+<Property Name="empId_referenceid" Type="Edm.Guid"/>
+<Property Name="empId_employeeId" Type="Edm.Int32"/>
+<Property Name="paysalaryId" Type="Edm.Guid"/>
+<Property Name="payMonth" Type="Edm.String" MaxLength="10"/>
+<Property Name="payYear" Type="Edm.Int32"/>
+<Property Name="payStatus" Type="Edm.String" MaxLength="10"/>
+</EntityType>
+<Annotations Target="employeesrv.empbioSet">
+<Annotation Term="UI.SelectionFields">
+<Collection>
+<PropertyPath>employeeId</PropertyPath>
+<PropertyPath>phoneNumber</PropertyPath>
+<PropertyPath>joinDate</PropertyPath>
+</Collection>
+</Annotation>
+<Annotation Term="UI.LineItem">
+<Collection>
+<Record Type="UI.DataField">
+<PropertyValue Property="Value" Path="employeeId"/>
+</Record>
+<Record Type="UI.DataField">
+<PropertyValue Property="Value" Path="firstName"/>
+</Record>
+<Record Type="UI.DataField">
+<PropertyValue Property="Value" Path="lastName"/>
+</Record>
+<Record Type="UI.DataField">
+<PropertyValue Property="Value" Path="email"/>
+</Record>
+<Record Type="UI.DataField">
+<PropertyValue Property="Value" Path="phoneNumber"/>
+</Record>
+<Record Type="UI.DataField">
+<PropertyValue Property="Value" Path="joinDate"/>
+</Record>
+<Record Type="UI.DataField">
+<PropertyValue Property="Value" Path="jobId"/>
+</Record>
+<Record Type="UI.DataField">
+<PropertyValue Property="Value" Path="salary"/>
+</Record>
+<Record Type="UI.DataField">
+<PropertyValue Property="Value" Path="managerId"/>
+</Record>
+<Record Type="UI.DataField">
+<PropertyValue Property="Value" Path="departmentId"/>
+</Record>
+<Record Type="UI.DataField">
+<PropertyValue Property="Value" Path="maritalStatus"/>
+</Record>
+</Collection>
+</Annotation>
+</Annotations>
+<Annotations Target="employeesrv.empbioSet/referenceid">
+<Annotation Term="Core.ComputedDefaultValue" Bool="true"/>
+</Annotations>
+<Annotations Target="employeesrv.FamilyMembersSet/refid">
+<Annotation Term="Core.ComputedDefaultValue" Bool="true"/>
+</Annotations>
+<Annotations Target="employeesrv.EmployeeAdressSet/empAdressId">
+<Annotation Term="Core.ComputedDefaultValue" Bool="true"/>
+</Annotations>
+<Annotations Target="employeesrv.trainingData/trainingId">
+<Annotation Term="Core.ComputedDefaultValue" Bool="true"/>
+</Annotations>
+<Annotations Target="employeesrv.payrollData/salaryId">
+<Annotation Term="Core.ComputedDefaultValue" Bool="true"/>
+</Annotations>
+<Annotations Target="employeesrv.payslipData/payslipId">
+<Annotation Term="Core.ComputedDefaultValue" Bool="true"/>
+</Annotations>
+</Schema>
+</edmx:DataServices>
+</edmx:Edmx>

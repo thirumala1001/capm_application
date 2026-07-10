@@ -1,12 +1,12 @@
-referenceid,employeeId,firstName,lastName,email,phoneNumber,joinDate,jobId,salary,managerId,departmentId,maritalStatus
-ed428fb3-af49-46a2-a999-262581a118ef,1001,John,Smith,john.smith@company.com,9876543210,2022-01-15,DEV001,65000.00,2001,10,true
-8f1a4f7a-ff91-4634-aad0-ec0d291715dd,1002,Emma,Johnson,emma.johnson@company.com,9876543211,2021-05-20,HR001,55000.00,2002,20,false
-801a1009-b5f8-4419-903d-d9f1e295bcd0,1003,Michael,Brown,michael.brown@company.com,9876543212,2020-08-10,MGR001,85000.00,2001,10,true
-aaf7a895-9afc-480c-afa2-8b77ca29fd2b,1004,Sophia,Davis,sophia.davis@company.com,9876543213,2023-02-05,DEV002,62000.00,2001,10,false
-fec92e70-aa43-4387-8162-82568966abe4,1005,William,Miller,william.miller@company.com,9876543214,2019-11-12,FIN001,70000.00,2003,30,true
-9b6782c1-f564-47c7-ac21-7d957fd365c8,1006,Olivia,Wilson,olivia.wilson@company.com,9876543215,2022-07-18,DEV003,60000.00,2001,10,false
-f91eb085-509c-4a84-b87c-31b98dcb51e1,1007,James,Moore,james.moore@company.com,9876543216,2021-09-25,QA001,58000.00,2004,40,true
-70ad4faa-4b02-4f19-a713-2b1d0e9de1db,1008,Ava,Taylor,ava.taylor@company.com,9876543217,2020-12-01,HR002,53000.00,2002,20,false
-8afa4a9e-355b-4439-889b-49a038bca516,1009,Benjamin,Anderson,benjamin.anderson@company.com,9876543218,2018-04-14,FIN002,78000.00,2003,30,true
-00e5dca5-254d-44d1-bfbf-bef12c481604,1010,Isabella,Thomas,isabella.thomas@company.com,9876543219,2024-01-10,INT001,35000.00,2001,10,false
+referenceid,employeeId,firstName,lastName,email,phoneNumber,joinDate,jobId,salary,managerId,departmentId,maritalStatus,serviceStatus
+ed428fb3-af49-46a2-a999-262581a118ef,1001,John,Smith,john.smith@company.com,9876543210,2022-01-15,DEV001,65000.00,2001,10,true,RETIRED
+8f1a4f7a-ff91-4634-aad0-ec0d291715dd,1002,Emma,Johnson,emma.johnson@company.com,9876543211,2021-05-20,HR001,55000.00,2002,20,false,SERVICING
+801a1009-b5f8-4419-903d-d9f1e295bcd0,1003,Michael,Brown,michael.brown@company.com,9876543212,2020-08-10,MGR001,85000.00,2001,10,true,RETIRED
+aaf7a895-9afc-480c-afa2-8b77ca29fd2b,1004,Sophia,Davis,sophia.davis@company.com,9876543213,2023-02-05,DEV002,62000.00,2001,10,false,RETIRED
+fec92e70-aa43-4387-8162-82568966abe4,1005,William,Miller,william.miller@company.com,9876543214,2019-11-12,FIN001,70000.00,2003,30,true,SERVICING
+9b6782c1-f564-47c7-ac21-7d957fd365c8,1006,Olivia,Wilson,olivia.wilson@company.com,9876543215,2022-07-18,DEV003,60000.00,2001,10,false,RETIRED
+f91eb085-509c-4a84-b87c-31b98dcb51e1,1007,James,Moore,james.moore@company.com,9876543216,2021-09-25,QA001,58000.00,2004,40,true,RETIRED
+70ad4faa-4b02-4f19-a713-2b1d0e9de1db,1008,Ava,Taylor,ava.taylor@company.com,9876543217,2020-12-01,HR002,53000.00,2002,20,false,SERVICING
+8afa4a9e-355b-4439-889b-49a038bca516,1009,Benjamin,Anderson,benjamin.anderson@company.com,9876543218,2018-04-14,FIN002,78000.00,2003,30,true,SERVICING
+00e5dca5-254d-44d1-bfbf-bef12c481604,1010,Isabella,Thomas,isabella.thomas@company.com,9876543219,2024-01-10,INT001,35000.00,2001,10,false,RETIRED
 

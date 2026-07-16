@@ -37,19 +37,13 @@
           "users": {
             "tirumala": {
               "password": "Welcome@CBT",
-              "roles": [
-                "inService"
-              ]
+              "roles": ["Admin"] 
             },
-            "ramya": {
+            "retired1": {
               "password": "welcome@1234",
-              "roles": [
-                "retired"
-              ],
+              "roles": ["retired"], 
               "userAttributes": {
-                "serviceStatus": [
-                  "RETIRED"
-                ]
+                "serviceStatus": ["RETIRED"]
               }
             }
           }

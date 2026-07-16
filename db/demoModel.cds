@@ -8,7 +8,7 @@ type empinServiceType : String enum{
 }
 
 entity employeeData {
-    key referenceid : UUID;
+    key referenceid : UUID;  
     key employeeId: Integer; //UUID
     firstName: String(100);
     lastName: String(100);

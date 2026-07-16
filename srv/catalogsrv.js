@@ -9,19 +9,25 @@ const {employeeData} = cds.entities;
 
 module.exports = srv =>{
     const db = cds.db;
-    srv.on('READ', 'empbioSet', async (req, res) => {
-        // console.log("request data:=", req.data);
-        // console.log("request query:=", req.query);
-        // console.log("request params:=", req.params);
-        // console.log("req.query =", JSON.stringify(req.query, null, 2));
-        // let empId = req.query.SELECT.where[2].val;
-        results = [];
-        // results = await db.run ([
-        //     SELECT.from(employeeData) //.where({employeeId : empId})
-        // ]);
-        results = await db.run (SELECT.from(employeeData));
-        return results;
-    });
+    // srv.before('READ', 'empbioSet', req =>{
+    //     console.log("request data:=", req.user.id);
+    //     console.log("request query:=", req.user.roles);
+    //     console.log("request params:=", req.user.attr);
+    //     // console.log("req.query =", JSON.stringify(req.query, null, 2));
+    // });
+    // srv.on('READ', 'empbioSet', async (req, res) => {
+    //     // console.log("request data:=", req.data);
+    //     // console.log("request query:=", req.query);
+    //     // console.log("request params:=", req.params);
+    //     // console.log("req.query =", JSON.stringify(req.query, null, 2));  
+    //     // let empId = req.query.SELECT.where[2].val;
+    //     results = [];
+    //     // results = await db.run ([
+    //     //     SELECT.from(employeeData) //.where({employeeId : empId})
+    //     // ]);
+    //     results = await db.run (SELECT.from(employeeData));
+    //     return results;
+    // });
 
     // to get the employee data using employeeId and also assosiation data
     // srv.on('READ','empbioSet', async (req, res)=>{

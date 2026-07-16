@@ -2,9 +2,9 @@ using {db.demoModel as myModel} from '../db/demoModel';
 
 service employeesrv @(requires: 'authenticated-user'){
 
-    entity empbioSet @(restirct :[
-        {grant : ['READ', 'WRITE'], to : 'inService'},
-        {grant :['READ'], to: 'retired', where: 'serviceStatus = $user.serviceStatus'}
+    entity empbioSet @(restrict :[
+        {grant : ['READ', 'WRITE'], to : 'Admin'}, //inService
+        {grant :['READ'], to: 'retired', where: 'serviceStatus=$user.serviceStatus'}  // ''RETIRED'' user can only read the data of retired employees testing the $user variable
     ]) as projection on myModel.employeeData;
     entity FamilyMembersSet  as projection on myModel.FamilyMembers;
     entity EmployeeAdressSet as projection on myModel.EmployeeAddress;

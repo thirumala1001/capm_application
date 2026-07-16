@@ -6,6 +6,14 @@
     {
       "name": "uaa.user",
       "description": "UAA"
+    },
+    {
+      "name": "$XSAPPNAME.Admin",
+      "description": "Admin"
+    },
+    {
+      "name": "$XSAPPNAME.retired",
+      "description": "retired"
     }
   ],
   "role-templates": [
@@ -15,6 +23,50 @@
       "scope-references": [
         "uaa.user"
       ]
+    },
+    {
+      "name": "Admin",
+      "description": "Admin",
+      "scope-references": [
+        "$XSAPPNAME.Admin"
+      ]
+    },
+    {
+      "name": "retired",
+      "description": "retired",
+      "attribute-references": [
+        {
+          "name": "serviceStatus",
+          "description": "serviceStatus"
+        }
+      ],
+      "scope-references": [
+        "$XSAPPNAME.retired"
+      ]
+    }
+  ],
+  "role-collections": [
+    {
+      "name": "AdminRoleCollection",
+      "description": "Role to the Admin User",
+      "role-template-references": [
+        "$XSAPPNAME.Admin"
+      ]
+    },
+    {
+      "name": "retiredRoleCollection",
+      "description": "Role to the retired User",
+      "role-template-references": [
+        "$XSAPPNAME.retired"
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "name": "serviceStatus",
+      "description": "serviceStatus",
+      "valueType": "string",
+      "valueRequired": false
     }
   ]
 }

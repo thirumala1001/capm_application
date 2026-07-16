@@ -1,0 +1,714 @@
+#2026 07 13 10:02:24.729#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32626#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:01:55.496385] Updated app with guid 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2026 07 13 10:02:24.729#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32626#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:01:55.584304] Updating process: "web" (STDOUT, API)#
+#2026 07 13 10:02:24.729#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32626#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:04.803765] Uploading app package for app with guid 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 (STDOUT, API)#
+#2026 07 13 10:02:24.729#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32626#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:05.080558] Updated app with guid 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 07 13 10:02:24.729#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32626#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:14.927433] Creating build for app with guid 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 (STDOUT, API)#
+#2026 07 13 10:02:24.729#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32626#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:15.337824] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 07 13 10:02:24.729#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32626#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:15.378949] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 07 13 10:02:24.729#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32626#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:15.379072] Cell 684caff8-89cd-492b-be01-b3d0835f1763 creating container for instance 89e5d85d-a0ef-47f5-b68f-be29c1f31add (STDOUT, STG)#
+#2026 07 13 10:02:24.729#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32626#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:16.253734] Security group rules were updated (STDOUT, STG)#
+#2026 07 13 10:02:24.729#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32626#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:16.361591] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully created container for instance 89e5d85d-a0ef-47f5-b68f-be29c1f31add (STDOUT, STG)#
+#2026 07 13 10:02:24.729#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32626#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:16.949487] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 07 13 10:02:24.729#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32626#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:16.949518] Downloading app package... (STDOUT, STG)#
+#2026 07 13 10:02:24.729#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32626#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:17.062725] Downloaded build artifacts cache (223B) (STDOUT, STG)#
+#2026 07 13 10:02:24.729#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32626#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:17.356402] Downloaded app package (2.3M) (STDOUT, STG)#
+#2026 07 13 10:02:24.729#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32626#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:17.488675] -----> Nodejs Buildpack version 1.9.2 (STDOUT, STG)#
+#2026 07 13 10:02:24.729#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32626#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:17.744053] -----> Bootstrapping python (STDOUT, STG)#
+#2026 07 13 10:02:24.729#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32626#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:17.744082] -----> Installing python 3.13.13 (STDOUT, STG)#
+#2026 07 13 10:02:24.729#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32626#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:17.744097] Copy [/tmp/buildpacks/17bd89c67d092631/dependencies/268a5e3743d51a14b86ea9da64439307/python_3.13.13_linux_x64_cflinuxfs4_8311abbf.tgz] (STDOUT, STG)#
+#2026 07 13 10:02:24.729#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32626#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:22.822102] -----> Installing binaries (STDOUT, STG)#
+#2026 07 13 10:02:24.729#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32626#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:22.822263] engines.node (package.json): >=18 (STDOUT, STG)#
+#2026 07 13 10:02:24.729#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32626#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:22.822323] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 07 13 10:02:24.729#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32626#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:22.822375] [31;1m**WARNING**[0m Dangerous semver range (>) in engines.node. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html (STDOUT, STG)#
+#2026 07 13 10:02:24.729#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32626#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:22.822421] -----> Installing node 24.15.0 (STDOUT, STG)#
+#2026 07 13 10:02:24.729#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32626#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:22.822723] Copy [/tmp/buildpacks/17bd89c67d092631/dependencies/6441e97e6386f47ec4c16cfdf8db0a17/node_24.15.0_linux_x64_cflinuxfs4_1a62d98b.tgz] (STDOUT, STG)#
+#2026 07 13 10:02:34.859#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32629#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:25.576135] Using default npm version: 11.12.1 (STDOUT, STG)#
+#2026 07 13 10:02:34.859#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32629#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:25.576165] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2026 07 13 10:02:34.859#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32629#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:25.576293] Copy [/tmp/buildpacks/17bd89c67d092631/dependencies/e4fe26756e9984a665478d350474fa2e/yarn_1.22.22_linux_noarch_any-stack_b6132b86.tgz] (STDOUT, STG)#
+#2026 07 13 10:02:34.859#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32629#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:25.944485] Installed yarn 1.22.22 (STDOUT, STG)#
+#2026 07 13 10:02:34.859#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32629#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:25.944512] -----> Creating runtime environment (STDOUT, STG)#
+#2026 07 13 10:02:34.859#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32629#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:25.946510] NODE_ENV=production (STDOUT, STG)#
+#2026 07 13 10:02:34.859#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32629#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:25.946532] NODE_HOME=/tmp/contents4174462850/deps/0/node (STDOUT, STG)#
+#2026 07 13 10:02:34.859#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32629#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:25.946536] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2026 07 13 10:02:34.859#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32629#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:25.946552] NODE_VERBOSE=false (STDOUT, STG)#
+#2026 07 13 10:02:34.859#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32629#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:25.946559] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2026 07 13 10:02:34.859#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32629#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:25.946677] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2026 07 13 10:02:34.859#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32629#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:25.946814] -----> Building dependencies (STDOUT, STG)#
+#2026 07 13 10:02:34.859#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32629#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:25.946822] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2026 07 13 10:02:34.859#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32629#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:25.946830] Rebuilding any native modules (STDOUT, STG)#
+#2026 07 13 10:02:34.859#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32629#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:26.535503] rebuilt dependencies successfully (STDOUT, STG)#
+#2026 07 13 10:02:34.859#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32629#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:26.605424] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2026 07 13 10:02:34.859#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32629#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:27.062920] up to date in 372ms (STDOUT, STG)#
+#2026 07 13 10:02:34.859#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32629#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:27.063121] 4 packages are looking for funding (STDOUT, STG)#
+#2026 07 13 10:02:34.859#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32629#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:27.063225] run `npm fund` for details (STDOUT, STG)#
+#2026 07 13 10:02:34.859#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32629#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:28.068596] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2026 07 13 10:02:44.880#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32637#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:37.854958] Exit status 0 (STDOUT, STG)#
+#2026 07 13 10:02:44.880#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32637#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:37.855022] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2026 07 13 10:02:44.880#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32637#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:37.855073] Uploading droplet... (STDOUT, STG)#
+#2026 07 13 10:02:44.880#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32637#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:37.855111] Uploading build artifacts cache... (STDOUT, STG)#
+#2026 07 13 10:02:44.880#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32637#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:37.879592] Uploaded build artifacts cache (224B) (STDOUT, STG)#
+#2026 07 13 10:02:44.880#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32637#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:38.554747] Creating droplet for app with guid 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 (STDOUT, API)#
+#2026 07 13 10:02:44.880#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32637#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:41.623065] Uploaded droplet (58.6M) (STDOUT, STG)#
+#2026 07 13 10:02:44.880#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32637#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:41.651897] Uploading complete (STDOUT, STG)#
+#2026 07 13 10:02:44.880#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32637#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:42.045404] Cell 684caff8-89cd-492b-be01-b3d0835f1763 stopping instance 89e5d85d-a0ef-47f5-b68f-be29c1f31add (STDOUT, STG)#
+#2026 07 13 10:02:44.880#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32637#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:42.045446] Cell 684caff8-89cd-492b-be01-b3d0835f1763 destroying container for instance 89e5d85d-a0ef-47f5-b68f-be29c1f31add (STDOUT, STG)#
+#2026 07 13 10:02:44.880#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32637#
+[PollStageAppStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:42.095758] Staging complete for build 89e5d85d-a0ef-47f5-b68f-be29c1f31add (STDOUT, API)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:01:55.496385] Updated app with guid 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:01:55.584304] Updating process: "web" (STDOUT, API)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:04.803765] Uploading app package for app with guid 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 (STDOUT, API)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:05.080558] Updated app with guid 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:14.927433] Creating build for app with guid 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 (STDOUT, API)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:15.337824] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:15.378949] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:15.379072] Cell 684caff8-89cd-492b-be01-b3d0835f1763 creating container for instance 89e5d85d-a0ef-47f5-b68f-be29c1f31add (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:16.253734] Security group rules were updated (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:16.361591] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully created container for instance 89e5d85d-a0ef-47f5-b68f-be29c1f31add (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:16.949487] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:16.949518] Downloading app package... (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:17.062725] Downloaded build artifacts cache (223B) (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:17.356402] Downloaded app package (2.3M) (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:17.488675] -----> Nodejs Buildpack version 1.9.2 (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:17.744053] -----> Bootstrapping python (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:17.744082] -----> Installing python 3.13.13 (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:17.744097] Copy [/tmp/buildpacks/17bd89c67d092631/dependencies/268a5e3743d51a14b86ea9da64439307/python_3.13.13_linux_x64_cflinuxfs4_8311abbf.tgz] (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:22.822102] -----> Installing binaries (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:22.822263] engines.node (package.json): >=18 (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:22.822323] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:22.822375] [31;1m**WARNING**[0m Dangerous semver range (>) in engines.node. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:22.822421] -----> Installing node 24.15.0 (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:22.822723] Copy [/tmp/buildpacks/17bd89c67d092631/dependencies/6441e97e6386f47ec4c16cfdf8db0a17/node_24.15.0_linux_x64_cflinuxfs4_1a62d98b.tgz] (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:25.576135] Using default npm version: 11.12.1 (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:25.576165] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:25.576293] Copy [/tmp/buildpacks/17bd89c67d092631/dependencies/e4fe26756e9984a665478d350474fa2e/yarn_1.22.22_linux_noarch_any-stack_b6132b86.tgz] (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:25.944485] Installed yarn 1.22.22 (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:25.944512] -----> Creating runtime environment (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:25.946510] NODE_ENV=production (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:25.946532] NODE_HOME=/tmp/contents4174462850/deps/0/node (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:25.946536] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:25.946552] NODE_VERBOSE=false (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:25.946559] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:25.946677] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:25.946814] -----> Building dependencies (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:25.946822] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:25.946830] Rebuilding any native modules (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:26.535503] rebuilt dependencies successfully (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:26.605424] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:27.062920] up to date in 372ms (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:27.063121] 4 packages are looking for funding (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:27.063225] run `npm fund` for details (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:28.068596] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:37.854958] Exit status 0 (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:37.855022] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:37.855073] Uploading droplet... (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:37.855111] Uploading build artifacts cache... (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:37.879592] Uploaded build artifacts cache (224B) (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:38.554747] Creating droplet for app with guid 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 (STDOUT, API)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:41.623065] Uploaded droplet (58.6M) (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:41.651897] Uploading complete (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:42.045404] Cell 684caff8-89cd-492b-be01-b3d0835f1763 stopping instance 89e5d85d-a0ef-47f5-b68f-be29c1f31add (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:42.045446] Cell 684caff8-89cd-492b-be01-b3d0835f1763 destroying container for instance 89e5d85d-a0ef-47f5-b68f-be29c1f31add (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:42.095758] Staging complete for build 89e5d85d-a0ef-47f5-b68f-be29c1f31add (STDOUT, API)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:44.679577] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully destroyed container for instance 89e5d85d-a0ef-47f5-b68f-be29c1f31add (STDOUT, STG)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:44.965114] Updated app with guid 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 ({:droplet_guid=>"55b85e6e-706f-461f-ab60-f9aa4b2ba393"}) (STDOUT, API)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:45.545936] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 creating container for instance 8bf82125-d9a4-4395-abc6-eed9de47c8be (STDOUT, CELL)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:46.658323] Security group rules were updated (STDOUT, CELL)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:46.773605] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 successfully created container for instance 8bf82125-d9a4-4395-abc6-eed9de47c8be (STDOUT, CELL)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:52.646915] Invoking pre-start scripts. (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:52.938653] Invoking start command. (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:53.613420] > start (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:53.613456] > node node_modules/@sap/hdi-deploy/deploy.js --use-hdb --parameter com.sap.hana.di.table/try_fast_table_migration=true (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:53.919970] VCAP_SERVICES: (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:53.920841] { (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:53.920865] "hana": [ (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:53.920869] { (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:53.920876] "name": "demo_capm-db", (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:53.920885] "label": "hana", (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:53.920889] "plan": "hdi-shared", (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:53.920892] "credentials": { (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:53.920897] "schema": "8DC066EB5E76446C9BBB4FD89F105EF5", (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:53.920902] "database_id": "9b9e0927-efd7-433d-a24b-bb33585bb8ac", (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:53.920907] "user": "8DC066EB5E76446C9BBB4FD89F105EF5_65144SLYVWX9324WT6ZFOYMAC_RT", (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:53.920944] "hdi_user": "8DC066EB5E76446C9BBB4FD89F105EF5_65144SLYVWX9324WT6ZFOYMAC_DT" (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:53.920947] }, (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:53.920950] "tags": [ (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:53.920953] "hana", (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:53.920956] "database", (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:53.920958] "relational" (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:53.920960] ] (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:53.920972] } (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:53.920975] ] (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:02:55.085#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18466#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:53.920977] } (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:05.082#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-19245#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:58.276493] @sap/hdi-deploy, version 5.7.0 (mode default), server version unknown (0.0.0.0), cloud version , node version 24.15.0, HDI version -1, container API version -1 (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:05.082#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-19245#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:58.276584] Deployment started at 2026-07-13 10:02:58 (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:05.082#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-19245#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:58.276777] Using hdb@2.29.5 for connection (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:05.082#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-19245#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:58.276833] Detection of server version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:05.082#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-19245#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:58.276885] Detection of cloud version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:05.082#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-19245#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:58.276888] Detection of container API version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:05.082#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-19245#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:58.276891] Detection of HDI version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:05.082#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-19245#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:58.277391] Deployment ended at 2026-07-13 10:02:58 (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:05.082#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-19245#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:58.277625] Error: Option parameter is not supported by the server; based on detected server version unknown (STDERR, APP/TASK/deploy)#
+#2026 07 13 10:03:05.082#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-19245#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:58.277950] (4s 598ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:05.082#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-19245#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:58.301394] npm notice (STDERR, APP/TASK/deploy)#
+#2026 07 13 10:03:05.082#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-19245#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:58.301429] npm notice New major version of npm available! 11.12.1 -> 12.0.1 (STDERR, APP/TASK/deploy)#
+#2026 07 13 10:03:05.082#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-19245#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:58.301435] npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.1 (STDERR, APP/TASK/deploy)#
+#2026 07 13 10:03:05.082#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-19245#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:58.301439] npm notice To update run: npm install -g npm@12.0.1 (STDERR, APP/TASK/deploy)#
+#2026 07 13 10:03:05.082#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-19245#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:58.301442] npm notice (STDERR, APP/TASK/deploy)#
+#2026 07 13 10:03:05.082#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-19245#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:58.384499] Exit status 1 (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:05.082#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-19245#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:58.805043] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 stopping instance 8bf82125-d9a4-4395-abc6-eed9de47c8be (STDOUT, CELL)#
+#2026 07 13 10:03:05.082#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-19245#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:58.805094] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 destroying container for instance 8bf82125-d9a4-4395-abc6-eed9de47c8be (STDOUT, CELL)#
+#2026 07 13 10:03:05.082#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-19245#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:01.338421] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 successfully destroyed container for instance 8bf82125-d9a4-4395-abc6-eed9de47c8be (STDOUT, CELL)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:58.276493] @sap/hdi-deploy, version 5.7.0 (mode default), server version unknown (0.0.0.0), cloud version , node version 24.15.0, HDI version -1, container API version -1 (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:58.276584] Deployment started at 2026-07-13 10:02:58 (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:58.276777] Using hdb@2.29.5 for connection (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:58.276833] Detection of server version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:58.276885] Detection of cloud version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:58.276888] Detection of container API version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:58.276891] Detection of HDI version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:58.277391] Deployment ended at 2026-07-13 10:02:58 (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:58.277625] Error: Option parameter is not supported by the server; based on detected server version unknown (STDERR, APP/TASK/deploy)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:58.277950] (4s 598ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:58.301394] npm notice (STDERR, APP/TASK/deploy)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:58.301429] npm notice New major version of npm available! 11.12.1 -> 12.0.1 (STDERR, APP/TASK/deploy)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:58.301435] npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.1 (STDERR, APP/TASK/deploy)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:58.301439] npm notice To update run: npm install -g npm@12.0.1 (STDERR, APP/TASK/deploy)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:58.301442] npm notice (STDERR, APP/TASK/deploy)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:58.384499] Exit status 1 (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:58.805043] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 stopping instance 8bf82125-d9a4-4395-abc6-eed9de47c8be (STDOUT, CELL)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:02:58.805094] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 destroying container for instance 8bf82125-d9a4-4395-abc6-eed9de47c8be (STDOUT, CELL)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:01.338421] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 successfully destroyed container for instance 8bf82125-d9a4-4395-abc6-eed9de47c8be (STDOUT, CELL)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:06.279683] Cell 684caff8-89cd-492b-be01-b3d0835f1763 creating container for instance 0ce9203d-4d4c-47a8-9898-cea435109c32 (STDOUT, CELL)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:07.152583] Security group rules were updated (STDOUT, CELL)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:07.243968] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully created container for instance 0ce9203d-4d4c-47a8-9898-cea435109c32 (STDOUT, CELL)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:12.517892] Invoking pre-start scripts. (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:12.764520] Invoking start command. (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:13.270390] > start (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:13.270416] > node node_modules/@sap/hdi-deploy/deploy.js --use-hdb --parameter com.sap.hana.di.table/try_fast_table_migration=true (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:13.479639] VCAP_SERVICES: (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:13.480239] { (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:13.480254] "hana": [ (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:13.480257] { (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:13.480261] "name": "demo_capm-db", (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:13.480271] "label": "hana", (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:13.480273] "plan": "hdi-shared", (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:13.480275] "credentials": { (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:13.480285] "schema": "8DC066EB5E76446C9BBB4FD89F105EF5", (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:13.480287] "database_id": "9b9e0927-efd7-433d-a24b-bb33585bb8ac", (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:13.480290] "user": "8DC066EB5E76446C9BBB4FD89F105EF5_65144SLYVWX9324WT6ZFOYMAC_RT", (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:13.480293] "hdi_user": "8DC066EB5E76446C9BBB4FD89F105EF5_65144SLYVWX9324WT6ZFOYMAC_DT" (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:13.480296] }, (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:13.480298] "tags": [ (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:13.480300] "hana", (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:13.480305] "database", (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:13.480307] "relational" (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:13.480309] ] (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:13.480311] } (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:13.480315] ] (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:15.194#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18479#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:13.480317] } (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:25.237#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32665#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:17.818704] @sap/hdi-deploy, version 5.7.0 (mode default), server version unknown (0.0.0.0), cloud version , node version 24.15.0, HDI version -1, container API version -1 (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:25.237#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32665#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:17.818749] Deployment started at 2026-07-13 10:03:17 (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:25.237#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32665#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:17.819171] Using hdb@2.29.5 for connection (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:25.237#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32665#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:17.819190] Detection of server version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:25.237#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32665#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:17.819377] Detection of cloud version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:25.237#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32665#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:17.819389] Detection of container API version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:25.237#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32665#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:17.819391] Detection of HDI version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:25.237#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32665#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:17.820021] Deployment ended at 2026-07-13 10:03:17 (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:25.237#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32665#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:17.820038] Error: Option parameter is not supported by the server; based on detected server version unknown (STDERR, APP/TASK/deploy)#
+#2026 07 13 10:03:25.237#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32665#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:17.820286] (4s 492ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:25.237#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32665#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:17.837993] npm notice (STDERR, APP/TASK/deploy)#
+#2026 07 13 10:03:25.237#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32665#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:17.838022] npm notice New major version of npm available! 11.12.1 -> 12.0.1 (STDERR, APP/TASK/deploy)#
+#2026 07 13 10:03:25.237#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32665#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:17.838027] npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.1 (STDERR, APP/TASK/deploy)#
+#2026 07 13 10:03:25.237#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32665#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:17.838030] npm notice To update run: npm install -g npm@12.0.1 (STDERR, APP/TASK/deploy)#
+#2026 07 13 10:03:25.237#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32665#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:17.838033] npm notice (STDERR, APP/TASK/deploy)#
+#2026 07 13 10:03:25.237#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32665#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:17.933757] Exit status 1 (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:25.237#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32665#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:19.201508] Cell 684caff8-89cd-492b-be01-b3d0835f1763 stopping instance 0ce9203d-4d4c-47a8-9898-cea435109c32 (STDOUT, CELL)#
+#2026 07 13 10:03:25.237#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32665#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:19.201541] Cell 684caff8-89cd-492b-be01-b3d0835f1763 destroying container for instance 0ce9203d-4d4c-47a8-9898-cea435109c32 (STDOUT, CELL)#
+#2026 07 13 10:03:25.237#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32665#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:23.340311] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully destroyed container for instance 0ce9203d-4d4c-47a8-9898-cea435109c32 (STDOUT, CELL)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:17.818704] @sap/hdi-deploy, version 5.7.0 (mode default), server version unknown (0.0.0.0), cloud version , node version 24.15.0, HDI version -1, container API version -1 (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:17.818749] Deployment started at 2026-07-13 10:03:17 (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:17.819171] Using hdb@2.29.5 for connection (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:17.819190] Detection of server version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:17.819377] Detection of cloud version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:17.819389] Detection of container API version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:17.819391] Detection of HDI version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:17.820021] Deployment ended at 2026-07-13 10:03:17 (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:17.820038] Error: Option parameter is not supported by the server; based on detected server version unknown (STDERR, APP/TASK/deploy)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:17.820286] (4s 492ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:17.837993] npm notice (STDERR, APP/TASK/deploy)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:17.838022] npm notice New major version of npm available! 11.12.1 -> 12.0.1 (STDERR, APP/TASK/deploy)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:17.838027] npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.1 (STDERR, APP/TASK/deploy)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:17.838030] npm notice To update run: npm install -g npm@12.0.1 (STDERR, APP/TASK/deploy)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:17.838033] npm notice (STDERR, APP/TASK/deploy)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:17.933757] Exit status 1 (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:19.201508] Cell 684caff8-89cd-492b-be01-b3d0835f1763 stopping instance 0ce9203d-4d4c-47a8-9898-cea435109c32 (STDOUT, CELL)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:19.201541] Cell 684caff8-89cd-492b-be01-b3d0835f1763 destroying container for instance 0ce9203d-4d4c-47a8-9898-cea435109c32 (STDOUT, CELL)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:23.340311] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully destroyed container for instance 0ce9203d-4d4c-47a8-9898-cea435109c32 (STDOUT, CELL)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:27.754502] Cell 684caff8-89cd-492b-be01-b3d0835f1763 creating container for instance b3c85bad-e67c-47d1-9091-f4c17fc3dd1b (STDOUT, CELL)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:28.636973] Security group rules were updated (STDOUT, CELL)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:28.730325] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully created container for instance b3c85bad-e67c-47d1-9091-f4c17fc3dd1b (STDOUT, CELL)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:34.056706] Invoking pre-start scripts. (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:34.263128] Invoking start command. (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:34.750296] > start (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:34.750324] > node node_modules/@sap/hdi-deploy/deploy.js --use-hdb --parameter com.sap.hana.di.table/try_fast_table_migration=true (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:34.935557] VCAP_SERVICES: (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:34.936359] { (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:34.936376] "hana": [ (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:34.936381] { (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:34.936385] "name": "demo_capm-db", (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:34.936388] "label": "hana", (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:34.936391] "plan": "hdi-shared", (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:34.936394] "credentials": { (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:34.936397] "schema": "8DC066EB5E76446C9BBB4FD89F105EF5", (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:34.936400] "database_id": "9b9e0927-efd7-433d-a24b-bb33585bb8ac", (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:34.936404] "user": "8DC066EB5E76446C9BBB4FD89F105EF5_65144SLYVWX9324WT6ZFOYMAC_RT", (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:34.936407] "hdi_user": "8DC066EB5E76446C9BBB4FD89F105EF5_65144SLYVWX9324WT6ZFOYMAC_DT" (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:34.936409] }, (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:34.936416] "tags": [ (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:34.936422] "hana", (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:34.936425] "database", (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:34.936428] "relational" (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:34.936430] ] (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:34.936432] } (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:34.936434] ] (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:35.546#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32673#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:34.936473] } (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:45.767#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32679#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:39.245342] Error: Option parameter is not supported by the server; based on detected server version unknown (STDERR, APP/TASK/deploy)#
+#2026 07 13 10:03:45.767#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32679#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:39.245343] @sap/hdi-deploy, version 5.7.0 (mode default), server version unknown (0.0.0.0), cloud version , node version 24.15.0, HDI version -1, container API version -1 (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:45.767#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32679#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:39.245370] Deployment started at 2026-07-13 10:03:39 (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:45.767#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32679#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:39.245378] Using hdb@2.29.5 for connection (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:45.767#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32679#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:39.245385] Detection of server version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:45.767#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32679#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:39.245395] Detection of cloud version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:45.767#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32679#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:39.245404] Detection of container API version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:45.767#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32679#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:39.245409] Detection of HDI version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:45.767#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32679#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:39.245414] Deployment ended at 2026-07-13 10:03:39 (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:45.767#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32679#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:39.245419] (4s 444ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:45.767#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32679#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:39.276624] npm notice (STDERR, APP/TASK/deploy)#
+#2026 07 13 10:03:45.767#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32679#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:39.276653] npm notice New major version of npm available! 11.12.1 -> 12.0.1 (STDERR, APP/TASK/deploy)#
+#2026 07 13 10:03:45.767#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32679#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:39.276657] npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.1 (STDERR, APP/TASK/deploy)#
+#2026 07 13 10:03:45.767#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32679#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:39.276659] npm notice To update run: npm install -g npm@12.0.1 (STDERR, APP/TASK/deploy)#
+#2026 07 13 10:03:45.767#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32679#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:39.276661] npm notice (STDERR, APP/TASK/deploy)#
+#2026 07 13 10:03:45.767#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32679#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:39.373381] Exit status 1 (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:45.767#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32679#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:39.923456] Cell 684caff8-89cd-492b-be01-b3d0835f1763 stopping instance b3c85bad-e67c-47d1-9091-f4c17fc3dd1b (STDOUT, CELL)#
+#2026 07 13 10:03:45.767#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32679#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:39.923492] Cell 684caff8-89cd-492b-be01-b3d0835f1763 destroying container for instance b3c85bad-e67c-47d1-9091-f4c17fc3dd1b (STDOUT, CELL)#
+#2026 07 13 10:03:45.767#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-32679#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:43.740894] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully destroyed container for instance b3c85bad-e67c-47d1-9091-f4c17fc3dd1b (STDOUT, CELL)#
+#2026 07 13 10:03:55.754#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:39.245342] Error: Option parameter is not supported by the server; based on detected server version unknown (STDERR, APP/TASK/deploy)#
+#2026 07 13 10:03:55.754#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:39.245343] @sap/hdi-deploy, version 5.7.0 (mode default), server version unknown (0.0.0.0), cloud version , node version 24.15.0, HDI version -1, container API version -1 (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:55.754#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:39.245370] Deployment started at 2026-07-13 10:03:39 (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:55.754#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:39.245378] Using hdb@2.29.5 for connection (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:55.754#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:39.245385] Detection of server version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:55.754#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:39.245395] Detection of cloud version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:55.754#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:39.245404] Detection of container API version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:55.754#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:39.245409] Detection of HDI version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:55.754#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:39.245414] Deployment ended at 2026-07-13 10:03:39 (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:55.754#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:39.245419] (4s 444ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:55.754#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:39.276624] npm notice (STDERR, APP/TASK/deploy)#
+#2026 07 13 10:03:55.754#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:39.276653] npm notice New major version of npm available! 11.12.1 -> 12.0.1 (STDERR, APP/TASK/deploy)#
+#2026 07 13 10:03:55.754#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:39.276657] npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.1 (STDERR, APP/TASK/deploy)#
+#2026 07 13 10:03:55.754#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:39.276659] npm notice To update run: npm install -g npm@12.0.1 (STDERR, APP/TASK/deploy)#
+#2026 07 13 10:03:55.754#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:39.276661] npm notice (STDERR, APP/TASK/deploy)#
+#2026 07 13 10:03:55.754#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:39.373381] Exit status 1 (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:03:55.754#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:39.923456] Cell 684caff8-89cd-492b-be01-b3d0835f1763 stopping instance b3c85bad-e67c-47d1-9091-f4c17fc3dd1b (STDOUT, CELL)#
+#2026 07 13 10:03:55.754#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:39.923492] Cell 684caff8-89cd-492b-be01-b3d0835f1763 destroying container for instance b3c85bad-e67c-47d1-9091-f4c17fc3dd1b (STDOUT, CELL)#
+#2026 07 13 10:03:55.754#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:43.740894] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully destroyed container for instance b3c85bad-e67c-47d1-9091-f4c17fc3dd1b (STDOUT, CELL)#
+#2026 07 13 10:03:55.754#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:49.175982] Cell 684caff8-89cd-492b-be01-b3d0835f1763 creating container for instance 27e42b8d-8ed2-49d7-8583-1059dae39705 (STDOUT, CELL)#
+#2026 07 13 10:03:55.754#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:50.099775] Security group rules were updated (STDOUT, CELL)#
+#2026 07 13 10:03:55.754#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:50.288826] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully created container for instance 27e42b8d-8ed2-49d7-8583-1059dae39705 (STDOUT, CELL)#
+#2026 07 13 10:04:05.879#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:55.418334] Invoking pre-start scripts. (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:04:05.879#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:55.622788] Invoking start command. (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:04:05.879#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:56.058540] > start (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:04:05.879#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:56.058563] > node node_modules/@sap/hdi-deploy/deploy.js --use-hdb --parameter com.sap.hana.di.table/try_fast_table_migration=true (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:04:05.879#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:56.223285] VCAP_SERVICES: (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:04:05.879#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:56.223983] { (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:04:05.879#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:56.224] "hana": [ (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:04:05.879#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:56.224003] { (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:04:05.879#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:56.224006] "name": "demo_capm-db", (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:04:05.879#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:56.224018] "label": "hana", (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:04:05.879#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:56.224020] "plan": "hdi-shared", (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:04:05.879#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:56.224023] "credentials": { (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:04:05.879#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:56.224026] "schema": "8DC066EB5E76446C9BBB4FD89F105EF5", (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:04:05.879#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:56.224029] "database_id": "9b9e0927-efd7-433d-a24b-bb33585bb8ac", (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:04:05.879#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:56.224032] "user": "8DC066EB5E76446C9BBB4FD89F105EF5_65144SLYVWX9324WT6ZFOYMAC_RT", (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:04:05.879#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:56.224035] "hdi_user": "8DC066EB5E76446C9BBB4FD89F105EF5_65144SLYVWX9324WT6ZFOYMAC_DT" (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:04:05.879#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:56.224044] }, (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:04:05.879#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:56.224049] "tags": [ (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:04:05.879#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:56.224052] "hana", (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:04:05.879#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:56.224054] "database", (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:04:05.879#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:56.224057] "relational" (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:04:05.879#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:56.224059] ] (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:04:05.879#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:56.224061] } (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:04:05.879#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:56.224064] ] (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:04:05.879#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:03:56.224066] } (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:04:05.879#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:04:00.513357] Error: Option parameter is not supported by the server; based on detected server version unknown (STDERR, APP/TASK/deploy)#
+#2026 07 13 10:04:05.879#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:04:00.513431] @sap/hdi-deploy, version 5.7.0 (mode default), server version unknown (0.0.0.0), cloud version , node version 24.15.0, HDI version -1, container API version -1 (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:04:05.879#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:04:00.513436] Deployment started at 2026-07-13 10:04:00 (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:04:05.879#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:04:00.513440] Using hdb@2.29.5 for connection (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:04:05.879#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:04:00.513442] Detection of server version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:04:05.879#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:04:00.513446] Detection of cloud version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:04:05.879#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:04:00.513448] Detection of container API version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:04:05.879#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:04:00.513450] Detection of HDI version failed; root cause: HANA Database instance is stopped (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:04:05.879#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:04:00.513452] Deployment ended at 2026-07-13 10:04:00 (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:04:05.879#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:04:00.513454] (4s 405ms) (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:04:05.879#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:04:00.529226] npm notice (STDERR, APP/TASK/deploy)#
+#2026 07 13 10:04:05.879#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:04:00.529249] npm notice New major version of npm available! 11.12.1 -> 12.0.1 (STDERR, APP/TASK/deploy)#
+#2026 07 13 10:04:05.879#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:04:00.529254] npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.1 (STDERR, APP/TASK/deploy)#
+#2026 07 13 10:04:05.879#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:04:00.529257] npm notice To update run: npm install -g npm@12.0.1 (STDERR, APP/TASK/deploy)#
+#2026 07 13 10:04:05.879#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:04:00.529259] npm notice (STDERR, APP/TASK/deploy)#
+#2026 07 13 10:04:05.879#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:04:00.603179] Exit status 1 (STDOUT, APP/TASK/deploy)#
+#2026 07 13 10:04:05.879#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:04:01.089370] Cell 684caff8-89cd-492b-be01-b3d0835f1763 stopping instance 27e42b8d-8ed2-49d7-8583-1059dae39705 (STDOUT, CELL)#
+#2026 07 13 10:04:05.879#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:04:01.089439] Cell 684caff8-89cd-492b-be01-b3d0835f1763 destroying container for instance 27e42b8d-8ed2-49d7-8583-1059dae39705 (STDOUT, CELL)#
+#2026 07 13 10:04:05.879#Z#DEBUG#da299b18-7ea1-11f1-9ff7-eeee0a9269d2.demo_capm-db-deployer#flowable-async-job-executor-thread-18512#
+[PollExecuteTaskStatusExecution] 012e5b9c-ac43-4ee7-99ea-98ac1cc0a157 [2026-07-13T10:04:04.446464] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully destroyed container for instance 27e42b8d-8ed2-49d7-8583-1059dae39705 (STDOUT, CELL)#
